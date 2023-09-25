@@ -1,0 +1,37 @@
+body{
+    background-image: url("Indra.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.indra{
+    color:red;
+    text-align: center;
+    font-size:20px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: Helvetica new ;
+    padding:50px 100px;
+    margin:100px;
+    border: 1rem rgb(212, 133, 133) solid;
+    border-radius:50px 0;
+    background: linear-gradient(45deg, blue, green,red);
+}
+.karti{
+    color:aquamarine;
+}
+section{
+    border:double 2px red;
+    border-style: dashed double;
+    border-color: brown;
+
+}
+img{
+    height:300px;
+    width:300px;
+    
+    border: black 1rem solid;
+    transform: rotate(45deg);
+    
+    filter: opacity(0%);
+    
+}

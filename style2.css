@@ -1,0 +1,15 @@
+.cyan
+{
+    background-color: rgb(235,223,227);
+}
+.dcyan{
+    margin: 5px 20px 5px 20px;
+    background-color: aquamarine;
+}
+table .tab{
+    margin: opx 30px 5px 30px;
+}
+table .tab tr td{
+    border: 3px solid black;
+}
+

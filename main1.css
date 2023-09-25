@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    background: url("https://th.bing.com/th/id/OIP.bPBCgvp9N0SUbVYJnBg2IQHaEo?w=256&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7") no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main{
+    width: 300px;
+    margin: 200px 400px 180px 400px;
+    border: 10px solid white;
+    background-color: rgb(156, 129, 129);
+    border-color: black;
+    text-align: center;
+    border-radius: 20px;
+}
+.time{
+    font-size: 60px;
+}
+.play{
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    
+}
+.reset{
+    font-size: 40px;
+    color: white;
+    background-color: black;
+}
+button{
+    margin: 20px;
+    border-radius: 15px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    padding-top: 5px;
+}

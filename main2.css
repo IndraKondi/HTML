@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    margin: 450px 490px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.main:hover{
+    box-shadow: 5px 5px;
+    background-color: brown;
+    padding-top: 5px;
+}
+.main{
+    transition: background-color 2s;
+    transition: ease-in 0.8s;
+}
+i{
+    border: 20px brown;
+    border-radius: 20px;
+    margin: 10px;
+    color: black;
+}
+#home{
+    transition: transform 0.5s,font-size 3s,padding 2s;
+}
+#home:hover{
+    color: black;
+    transform: rotate(360deg);
+    padding: 1.5px;
+    font-size: 23px;
+    /*text-shadow: 3px 1.5px;*/
+}

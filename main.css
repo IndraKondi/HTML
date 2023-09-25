@@ -1,0 +1,44 @@
+body{
+    background-color: cornflowerblue;
+}
+.img{
+    padding: 20px 20px 40px 100px;
+    border-radius: 15px;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 2sec; 
+}
+.flex-container{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.flex-container > div{
+    background-color: aquamarine;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+    
+}
+#second{
+    border: double;
+    color: blue;
+    background-color: black;
+    margin: 20px 100px;
+    border-radius: 10px;
+    padding: 0px 20px 45px 20px;
+    border-color: rgb(12, 122, 218);
+    outline-color: darkred;
+}
+#third{
+    border: double;
+    background-color: black;
+    color: blue;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+}
+li:hover{
+    color: red;
+}
